@@ -1,0 +1,26 @@
+{
+  "name": "micro-lc-react-stencil-template",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Mia Platform Core Team <core@mia-platform.eu>",
+  "contributors": [
+    "Matteo Pietro Dazzi <matteo.dazzi@mia-platform.eu>",
+    "Giovanni Tommasi <giovanni.tommasi@mia-platform.eu>"
+  ],
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "react": "yarn workspace @micro-lc/react",
+    "stencil": "yarn workspace @micro-lc/stencil"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:micro-lc/micro-lc-react-stencil-template.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

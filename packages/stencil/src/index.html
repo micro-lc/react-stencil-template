@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/stencil.esm.js"></script>
+    <script nomodule src="/build/stencil.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/7.4.0/rxjs.umd.min.js"
+      integrity="sha512-+44c+4RaNWpQRmhz2dwqH+t6caPi46MTcLaQr96rnvXOOW7SInBN4ivxSIZyqGlLSUOw5UQ+ndUmN417dJPXNA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <sample-component></sample-component>
+    <script>
+      document.querySelector("sample-component").eventBus = new rxjs.ReplaySubject()
+    </script>
+  </body>
+</html>
