@@ -13,6 +13,6 @@ RUN touch ./off \
 
 WORKDIR /usr/static
 
-COPY ./packages/lit/dist .
+COPY ./packages/stencil/dist .
 
 USER nginx
