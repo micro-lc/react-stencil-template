@@ -22,7 +22,7 @@ The build file will produce a `dist` folder inside `packages/stencil`.
 
 ## Preview Stencil components
 
-To preview Stencil components you can run: `yarn lint dev`. This will spin up a dev server on `localhost:3000`.
+To preview Stencil components you can run: `yarn stencil start`. This will spin up a dev server on `localhost:3000`.
 
 To insert and configure multiple Web Components you can edit the `index.html` file inside the `packages/stencil` folder.
 
