@@ -1,4 +1,4 @@
-# miro-lc React + Stencil template
+# micro-lc React + Stencil template
 
 [![Build Status][github-actions-svg]][github-actions]
 [![Coverage Status][coverall-svg]][coverall-io]
@@ -22,7 +22,7 @@ The build file will produce a `dist` folder inside `packages/stencil`.
 
 ## Preview Stencil components
 
-To preview Stencil components you can run: `yarn stencil start`. This will spin up a dev server on `localhost:3000`.
+To preview Stencil components you can run: `yarn stencil start`. This will spin up a dev server on `localhost:3333`.
 
 To insert and configure multiple Web Components you can edit the `index.html` file inside the `packages/stencil` folder.
 
