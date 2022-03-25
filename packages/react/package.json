@@ -2,6 +2,8 @@
   "name": "@micro-lc/react",
   "private": true,
   "version": "1.0.0",
+  "main": "dist/react.cjs.js",
+  "module": "dist/react.es.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -11,6 +13,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@types/react": "^17.0.42",
     "@types/react-dom": "^17.0.10",
