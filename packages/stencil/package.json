@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
-    "jest": "^27.4.5",
+    "jest": "^28.0.3",
     "jest-cli": "^27.4.5",
     "puppeteer": "^13.5.2"
   },
