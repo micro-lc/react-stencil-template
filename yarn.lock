@@ -1722,9 +1722,9 @@
     "@sinonjs/commons" "^1.7.0"
 
 "@stencil/core@^2.13.0":
-  version "2.17.2"
-  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.17.2.tgz#c4f045ba081f65c7f9ef76fbf930da0457ef6ab9"
-  integrity sha512-IEqjIx0e00wwRnbFuzLVXXWpoadLHkDPNfqjkta2qt/MzmdC7oO6tYHXxvho45ehCYmEq3zFRh2TB1Ycv2vM5w==
+  version "2.18.1"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.18.1.tgz#f45e99b7abe2a0fa90d3141363601a68df5c08a7"
+  integrity sha512-/fXkh1lwZ+X9JQCw50mPjhBogzEHOBvVC5pLoDLZqodVYK0DGWILM2YLV4dcIUBNEK8/HMDpO/Rq81/rS3mNOw==
 
 "@tootallnate/once@1":
   version "1.1.2"
